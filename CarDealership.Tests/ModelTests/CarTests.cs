@@ -3,16 +3,16 @@ using ProjectName.Models;
 using System.Collections.Generic;
 using System;
 
-namespace ProjectName.Tests
+namespace CarDealership.Tests
 {
   [TestClass]
-    public class ClassNameTests
+    public class CarTests
     {
       [TestMethod]
       public void MethodName_DescriptionOfBehavior_ExpectedReturnValue()
       {
       // any necessary logic to prep for test; instantiating new classes, etc.
-      Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
+      Assert.AreEqual();
       }
     }
 }
