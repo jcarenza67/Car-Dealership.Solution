@@ -12,7 +12,7 @@ namespace CarDealership.Models
     public int Price { get; set; }
     private static List<Car> _instances = new List<Car> { };
 
-    public Car (string make, string model, int year, bool isAvailable, int price)
+    public Car (string make, string model, string year, bool isAvailable, int price)
     {
       _make = make;
       _model = model;
